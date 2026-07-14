@@ -10,3 +10,5 @@ FUNCTION Main()
         QOut("Linha 3")
     endif
 
+    RETURN NIL
+

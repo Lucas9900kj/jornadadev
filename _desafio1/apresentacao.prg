@@ -3,7 +3,7 @@ FUNCTION Main()
     LOCAL cCidade:= "Sao Paulo"
     LOCAL cCurso:= "Harbour/ADVPL"
 
-    hb_cdpSelect("PT850")
+    hb_cdpSelect("uf8")
 
     Qout("=========================")
     QOut(" FICHA DE APRENSENTACAO  ")
@@ -14,6 +14,5 @@ FUNCTION Main()
     QOut("Curso: " + cCurso)
 
     QOut("=========================")
-    
-RETURN NIL
 
+RETURN NIL
